@@ -19,5 +19,4 @@ spec:
       containers:
       - image: httpd
         name: httpd
-        resources: {}
-status: {}
+        command: ["/bin/bash", "-c"]
